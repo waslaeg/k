@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="كيرلس عبدالملاك - خبير ميديا باينج يقدم حلول رقمية مبتكرة تشمل البرمجة، الإعلانات، التصميم، وكتابة المحتوى.">
+<meta name="author" content="كيرلس عبدالملاك">
+<meta name="keywords" content="كيرلس عبدالملاك مبرمج وميديا باير, كيرلس عبدالملاك ميديا باير, كيرلس عبدالملاك ادارة حملات اعلانيه, كيرلس عبدالملاك تسويق رقمي, كيرلس عبدالملاك">
+<meta property="og:title" content="بورتفوليو كيرلس عبدالملاك -  ميديا باير">
+<meta property="og:description" content="تعرف على خدماتي في إدارة الإعلانات بجودة عالية ونتائج فعلية.">
+<meta property="og:image" content="logo.png">
+<meta property="og:url" content="https://waslaeg.github.io/k/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="كيرلس عبدالملاك">
+<!-- Favicon -->
+<link rel="icon" href="favicon.png" type="image/x-icon">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://waslaeg.github.io/k/">
+  <title>كيرلس عبدالملاك</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="welcomeMessage()">
+
+  <header>
+    <nav>
+      <div class="logo-box">
+        <img src="logo.png" alt="لوجو" class="logo-img" />
+        <span class="logo-text">كيرلس عبدالملاك</span>
+      </div>
+      <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="services.html">الخدمات</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1> أهلاً بيك، انا كيرلس</h1>
+
+      <h2>  ميديا باير </h2>
+     <p> بدير الحملات وبصمم خطط اعلانية كامله بخبرة متعددة المجالات</p>
+ <a href="services.html" class="btn">شوف خدماتي</a>
+      <a href="https://wa.me/+201211320568" target="_blank" class="btn">تواصل على واتساب</a>
+    </div>
+  </section>
+</main>
+  <footer>
+    <div class="social">
+      <a href="https://www.facebook.com/share/15z76Ao4me/?mibextid=wwXIfr">فيسبوك</a> | 
+      <a href="https://wa.me/201211320568">وتس اب</a> 
+    </div>
+    <p>© 2025 كيرلس عبدالملاك. كل الحقوق محفوظة.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+
+    function welcomeMessage() {
+      alert("أهلاً بيك في موقعي! شوف خدماتي وراسلني لو مهتم بأي حاجة.");
+    }
+  </script>
+<script>
+  window.onload = function () {
+    document.getElementById("welcome-popup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("welcome-popup").style.display = "none";
+  }
+</script>
+<div id="welcome-popup" class="popup">
+  <div class="popup-content">
+    <h2>أهلًا بيك في موقعي!</h2>
+    <p>أنا كيراس، ميديا باير . استمتع بتصفح خدماتي واطلب اللي يناسبك!</p>
+    <button onclick="closePopup()">يلا نشوف</button>
+  </div>
+</div>
+</body>
+</html>
