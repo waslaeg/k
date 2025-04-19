@@ -3,7 +3,7 @@ body {
   font-family: 'Cairo', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #dfe8eb;
   color: #333;
   line-height: 1.6;
 }
@@ -20,7 +20,7 @@ main {
 
 /* الهيدر والقائمة */
 header {
-  background-color: #e0d6b4;
+  background-color: #c6e0b4;
   padding: 15px 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   position: sticky;
@@ -142,7 +142,7 @@ nav {
 .hero {
   padding: 80px 20px;
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #dfe8eb;
 }
 
 .hero h1 {
@@ -175,7 +175,7 @@ nav {
 /* قسم الخدمات */
 .services-section {
   padding: 50px 20px;
-  background-color: #f9f9f9;
+  background-color: #dfe8eb;
   text-align: center;
 }
 
@@ -314,7 +314,7 @@ nav {
 
 /* الفوتر */
 footer {
-  background-color: #222;
+  background-color: #dfe8eb;
   color: white;
   padding: 20px;
   text-align: center;
